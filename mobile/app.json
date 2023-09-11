@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "SG Comelec",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.norsu.comelec"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "scheme": "myapp",
+    "extra": {
+      "API_URL": "https://comelec-server-87a3d138fc60.herokuapp.com",
+      "eas": {
+        "projectId": "0c87f25f-b7cc-4e74-bfba-ba1a827f9db7"
+      }
+    }
+  }
+}
